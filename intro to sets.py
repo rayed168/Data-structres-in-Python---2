@@ -1,19 +1,14 @@
-my_tuple = ()
-print(my_tuple)
+my_set = {1, 2, 2, 3, 3, 4, 5, 5, 4}
+print("Set : ",my_set)
 
-my_tuple = (1, 2, 3)
-print(my_tuple)
+my_set.add(11)
+print("Set : ",my_set)
 
-my_tuple = (1, 1.00, "Hello", True)
-print(my_tuple)
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7}
 
-my_tuple = ((1, 2), [1, 2, 3])
-print(my_tuple)
+print("Difference : ")
+print(set1.difference(set2))
 
-my_tuple = ("a", "b", "o", "m")
-print(my_tuple[0])
-print(my_tuple[-1])
-print(my_tuple[-3])
-
-my_tuple = ((1, 2), ("Rayed", "Mimo"))
-print(my_tuple[1][0])
+print("Symmetric Difference : ")
+print(set1.symmetric_difference(set2))
